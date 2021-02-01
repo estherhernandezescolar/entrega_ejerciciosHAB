@@ -1,0 +1,109 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100&family=Ruda:wght@900&display=swap');
+/*navegador*/
+nav {
+  position: relative;
+  clear: both;
+  background: #855479;
+  text-align: center;
+  color: rgb(78, 69, 76);
+  padding:20px 0px;
+/*header*/
+}
+header {
+  background:#d1a0a0;
+  padding:40px 0px;
+}
+
+body {
+  font-family: 'Catamaran', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  height:100%;
+  color: rgb(65, 18, 6);
+  text-align: center;
+
+}
+
+section {
+  width: 100%;
+  background: rgb(233, 212, 231);
+  padding-bottom: 60px;
+  padding-top:30px;
+}
+
+/*horario*/
+table th {
+  font:bold 15px Arial;
+  color:white;
+  background-color:rgb(51, 24, 49);
+  border: 1px solid black;
+}
+.fila_impar {
+  background-color:rgb(230, 137, 137);
+}
+.fila_impar {
+  background-color:rgb(128, 190, 240);
+}
+
+
+/*info contacto*/
+aside {
+  background:#c496e9;
+  float: right;
+}
+.circular--square {
+  border-radius: 50%;
+}
+
+/*favoritos*/
+#lista{
+	padding: 100px;
+  width: 70%;  
+}
+li:hover::marker {
+  content: attr(data-emoji);
+}
+
+/*formulario*/
+.list1 {list-style:none;}
+form input:required {
+  border:2px solid rgb(255, 0, 43);
+}
+button {
+  transform-style: preserve-3d;
+  }
+button:after {
+  top: -100%;
+  left: 0px;
+  width: 100%;
+  position: absolute;
+  background: #3a9999;
+  border-radius: 5px;
+  content: ‘Flipped’;
+  transform-origin: left bottom;
+  transform: rotateX(90deg);
+  }
+  button:hover {
+    transform-origin: center bottom;
+    transform: rotateX(-90deg) translateY(100%);
+    }
+
+/*footer*/
+footer {
+  position: relative;
+  margin-top: -50px;
+  height: 40px; 
+  padding:5px 0px;
+  clear: both;
+  background: #855479;
+  text-align: center;
+  color: rgb(78, 69, 76);
+}
+a{
+  color: rgb(216, 211, 211);
+}
+a:hover {
+  border-bottom: 2px solid turquoise;
+  cursor: pointer;
+}
+
+
